@@ -1,14 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar" dir="rtl">
 <head>
-  <title>World Cup 2026 Predictor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oro nook | قهوة تزيد يومك جمالاً</title>
+    <!-- تضمين مكتبة Tailwind CSS للمظهر العصري -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- خطوط جوجل (صنعاء أو ميرى) لتصميم نصوص أنيق -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+        }
+    </style>
 </head>
-<body>
+<body class="bg-[#faf9f6] text-[#2c2c2c]">
 
-<h1>🏆 توقعات كأس العالم 2026</h1>
+    <!-- شريط التنقل (Navbar) -->
+    <nav class="sticky top-0 z-50 bg-[#faf9f6]/90 backdrop-blur-md border-b border-stone-200">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-wide text-[#8c7853]">oro nook</div>
+            <div class="hidden md:flex space-x-8 space-x-reverse text-sm font-medium">
+                <a href="#home" class="hover:text-[#8c7853] transition">الرئيسية</a>
+                <a href="#menu" class="hover:text-[#8c7853] transition">القائمة</a>
+                <a href="#about" class="hover:text-[#8c7853] transition">قصتنا</a>
+                <a href="#contact" class="hover:text-[#8c7853] transition">تواصل معنا</a>
+            </div>
+            <button class="bg-[#8c7853] text-white px-5 py-2 rounded-full text-sm hover:bg-[#736243] transition shadow-sm">
+                اطلب الآن
+            </button>
+        </div>
+    </nav>
 
-<a href="groups.html">دور المجموعات</a><br>
-<a href="knockout.html">الأدوار الإقصائية</a>
+    <!-- القسم الرئيسي (Hero Section) -->
+    <section id="home" class="relative min-h-[85vh] flex items-center justify-center bg-stone-900 text-white overflow-hidden">
+        <!-- خلفية سينمائية دافئة (يمكنك استبدال الرابط بصورة خاصة بك لاحقاً) -->
+        <div class="absolute inset-0 opacity-40 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=1200');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-stone-950 via-transparent to-transparent"></div>
+        
+        <div class="relative max-w-3xl text-center px-6 space-y-6">
+            <h1 class="text-4xl md:text-6xl font-bold leading-tight">قهوة تزيد يومك جمالاً وراحة</h1>
+            <p class="text-lg md:text-xl text-stone-300 font-light max-w-xl mx-auto">
+                حيث تلتقي دقة التحضير اليدوي بشغف المذاق الأصيل. نختار محاصيلنا بعناية لنقدم لك تجربة لا تُنسى.
+            </p>
+            <div class="pt-4">
+                <a href="#menu" class="bg-[#8c7853] text-white px-8 py-3 rounded-full font-medium hover:bg-[#736243] transition inline-block shadow-md">
+                    اكتشف المنيو
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المنيو المصغر (Featured Menu) -->
+    <section id="menu" class="py-20 max-w-6xl mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-stone-800">قائمة مميزة</h2>
+            <p class="text-stone-500 mt-2">مختارات من أفضل ما نقدّمه من قهوة وأدوات</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- كرت منتج 1 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition border border-stone-100 text-center p-6">
+                <div class="h-48 rounded-xl bg-stone-100 mb-4 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=500');"></div>
+                <h3 class="text-xl font-bold text-stone-800">V60 مقطرة</h3>
+                <p class="text-stone-500 text-sm mt-2">إيحاءات فاكهية واضحة مستخلصة بمعايير تقنية دقيقة.</p>
+                <div class="mt-4 font-bold text-[#8c7853]">22 ر.س</div>
+            </div>
+
+            <!-- كرت منتج 2 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition border border-stone-100 text-center p-6">
+                <div class="h-48 rounded-xl bg-stone-100 mb-4 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1510972527409-cef190397282?q=80&w=500');"></div>
+                <h3 class="text-xl font-bold text-stone-800">فلات وايت</h3>
+                <p class="text-stone-500 text-sm mt-2">توازن مثالي بين إسبريسو غني وحليب مبخر بقوام حريري.</p>
+                <div class="mt-4 font-bold text-[#8c7853]">18 ر.س</div>
+            </div>
+
+            <!-- كرت منتج 3 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition border border-stone-100 text-center p-6">
+                <div class="h-48 rounded-xl bg-stone-100 mb-4 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1608228079968-c7681afb7f1d?q=80&w=500');"></div>
+                <h3 class="text-xl font-bold text-stone-800">حبوب قهوة مختصة</h3>
+                <p class="text-stone-500 text-sm mt-2">محاصيل ربع سنوية طازجة ممتازة للتحضير المنزلي.</p>
+                <div class="mt-4 font-bold text-[#8c7853]">65 ر.س</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر (Footer) -->
+    <footer id="contact" class="bg-stone-900 text-stone-400 py-12 border-t border-stone-800 text-sm">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+            <div>
+                <p class="font-bold text-white text-lg mb-1">oro nook</p>
+                <p>مرحباً بك في ركنك الهادئ.</p>
+            </div>
+            <div class="flex space-x-6 space-x-reverse">
+                <span>السبت - الخميس: 6 ص - 12 م</span>
+                <span>•</span>
+                <span>الجمعة: 4 م - 12 م</span>
+            </div>
+            <p>&copy; 2026 جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
